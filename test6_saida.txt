@@ -1,0 +1,6 @@
+(TK_NUM, 123)
+(TK_NUM, -123)
+(TK_ID, abc)
+ERRO LEXICO (linha 1, coluna 14): Identificador nao pode comecar com numero
+ERRO LEXICO (linha 1, coluna 21): Identificador nao pode comecar com numero
+(TK_EOF, )

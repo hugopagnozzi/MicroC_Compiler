@@ -1,0 +1,5 @@
+(TK_CHAR, 'a') 
+ERRO LEXICO (linha 1, coluna 5): Char nao pode conter mais de um caractere 
+ERRO LEXICO (linha 1, coluna 10): Char nao pode ser vazio 
+ERRO LEXICO (linha 1, coluna 13): Char nao terminado 
+(TK_EOF, )

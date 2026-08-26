@@ -1,0 +1,8 @@
+(TK_ID, x) 
+(TK_ASSIGN, =) 
+(TK_NUM, 10) 
+(TK_ID, y) 
+(TK_ASSIGN, =) 
+(TK_NUM, 20) 
+(TK_SEMI, ;) 
+(TK_EOF, )

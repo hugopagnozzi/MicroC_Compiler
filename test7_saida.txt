@@ -1,0 +1,17 @@
+ERRO LEXICO (linha 3, coluna 1): ! 
+ERRO LEXICO (linha 3, coluna 2): @ 
+ERRO LEXICO (linha 3, coluna 3): # 
+ERRO LEXICO (linha 3, coluna 4): $ 
+ERRO LEXICO (linha 3, coluna 5): % 
+(TK_STRING, "!@#$%") 
+(TK_CHAR, '!') 
+(TK_CHAR, '@') 
+(TK_CHAR, '#') 
+(TK_CHAR, '$') 
+(TK_CHAR, '%') 
+ERRO LEXICO (linha 5, coluna 5): ! 
+ERRO LEXICO (linha 6, coluna 9): @ 
+ERRO LEXICO (linha 7, coluna 13): # 
+ERRO LEXICO (linha 8, coluna 17): $ 
+ERRO LEXICO (linha 9, coluna 21): % 
+(TK_EOF, )
