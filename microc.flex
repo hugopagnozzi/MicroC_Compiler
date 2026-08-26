@@ -29,6 +29,7 @@
         TK_MINUS, 
         TK_TIMES, 
         TK_DIV, 
+        TK_EQ,
         TK_ASSIGN, 
         TK_SEMI, 
         TK_EOF, 
@@ -50,6 +51,7 @@
         "TK_MINUS", 
         "TK_TIMES", 
         "TK_DIV", 
+        "TK_EQ", 
         "TK_ASSIGN", 
         "TK_SEMI", 
         "TK_EOF", 
@@ -152,6 +154,11 @@ ALFANUM     [a-zA-Z0-9_]
 "="                 {
                         coluna_atual += yyleng; 
                         return TK_ASSIGN; 
+                    }
+
+"=="                {
+                        coluna_atual += yyleng; 
+                        return TK_EQ; 
                     }
 
  /* --- Operadores aritmeticos e simbolos de pontuacao ------------------ */
